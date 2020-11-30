@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+</head>
+
+<body>
+    <div style='text-align:center; width:100%'><a href="index.html">Главная</a>
+    <a class="catalog" href="catalog.html">Каталог</a>
+    <a class="contacts" href="contacts.html">Контакты</a>
+    
+    <hr size=10 color=green>
+    <h1>Напишите нам</h1>
+    <form action="#" autocomplete="on">
+        <fieldset>
+            <label for="name">Введите имя</label>
+            <input id="name" type="text" placeholder="Иван" maxlength="10" minlength="2" autocomplete="off" name="name" required>
+            <br>
+            <br>
+            <label for="email">Введите email</label>
+            <input id="email" type="email" placeholder="ivan@mail.ru" name="email" required>
+            <br>
+            <br>
+            <label for="phone">Номер телефона</label>
+            <input id="phone" type="tel" placeholder="+7 960 547 32 68" autocomplete="off" name="phone">
+            <br>
+            <br>
+            <label for="theme">Тема обращения</label>
+            <input id="theme" type="text" autocomplete="off" name="theme" required>
+            <br>
+            <br>
+            <label for="text">Текст обращения</label>
+            <br>
+            <textarea cols="50" rows="10" name="text"></textarea>
+            <br>
+            <input type="submit"> </fieldset>
+    </form>
+    <h2>Адрес</h2>
+    <p>Наш телефон: +7 954 228 18 14
+        <br>Наш офис находится: Россия, Самара, Персиковая 54
+        <br>email: samararyba.mail@yandex.ru
+        <br>Мы работаем с 08:00 до 19:00</p>
+    <h3>Вы можете найти нас на карте</h3>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3ddcc79529cf446f758703c8d5af35b9e77feb89449665db0b553c6485a7cfbe&amp" width="500" height="400" frameborder="0"></iframe>
+    
+    <hr size=10 color=green>
+    <p>&copy Все права защищены</p>
+</body>
+</html>
