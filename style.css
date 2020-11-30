@@ -1,0 +1,65 @@
+body {
+ background: url(images/hand.png) repeat-y, 
+             rgba(221, 250, 142, 0.534) url(images/bg-right.png) repeat-y 100% 0;
+}
+
+a {
+    padding: 2px; /* Поля вокруг текста ссылки */
+    text-decoration: none; /* Убираем подчёркивание */
+    
+    color: rgb(16, 116, 30); /* Новый цвет текста */
+    font-size: 30px; /* Размер шрифта */
+    font-weight: bold; 
+}
+
+h2 {
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.product_description {
+    color:rgb(67, 75, 68);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product_description_big {
+    
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
+
+ul {
+    list-style-image: url(pics/plus.png);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+input {
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+textarea {
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.sign {
+        float: right; /* Выравнивание по правому краю */
+        border: 3px solid #333; /* Параметры рамки */
+        padding: 7px; /* Поля внутри блока */
+        margin: 10px 10px 5px 5px; /* Отступы вокруг */
+        background: #f0f0f0; /* Цвет фона */ 
+    }
