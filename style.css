@@ -25,6 +25,10 @@ h2 {
     line-height: 16px;
 }
 
+.product_description:hover{
+    color:rgb(67, 75, 68);
+}
+
 .product_description_big {
     
     color: #484343;
@@ -33,6 +37,10 @@ h2 {
     line-height: 24px;
     text-align: left;
     
+}
+
+.product_description_big:hover{
+    color: #484343;
 }
 
 ul {
@@ -56,10 +64,44 @@ textarea {
     font-size: 18px;
 }
 
-.sign {
+.product_img {
         float: right; /* Выравнивание по правому краю */
-        border: 3px solid #333; /* Параметры рамки */
-        padding: 7px; /* Поля внутри блока */
-        margin: 10px 10px 5px 5px; /* Отступы вокруг */
-        background: #f0f0f0; /* Цвет фона */ 
+        border: solid #333; /* Параметры рамки */
+        
+        
+       
     }
+
+a:hover{
+    color: rgb(255, 1, 1);
+}
+
+input[id="email"]:focus {
+	color: #002e03;
+	background-color: #caffcc;
+}
+
+input[id="theme"],input[id="name"],input[id="text"],textarea {
+	text-transform: capitalize;
+}
+table,
+td,
+th {
+	border: 1px solid rgb(15, 15, 15);
+}
+table {
+	border-collapse: collapse;
+}
+
+.product_img:hover{
+    border: none;
+    margin: 3px;
+}
+
+p:first-letter {
+	color: #03c03c;
+	font-size: 26px;
+}
+thead tr{
+	height: 50px;
+}
