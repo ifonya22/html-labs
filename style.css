@@ -1,0 +1,337 @@
+@font-face {
+    font-family: Montserrat; /* Гарнитура шрифта */
+    src: url(Montserrat-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+body{
+    background: #E5E5E5;
+}
+a{
+    text-decoration: none;
+}
+a.logo{
+    position: absolute;
+    width: 160px;
+    height: 87px;
+    left: 160px;
+    top: 60px;
+}
+a.main{
+    
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    left: 577px;
+    top: 95px;
+    color: #D1A954;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.main1{
+    position: absolute;
+width: 88px;
+height: 29px;
+left: 568px;
+top: 88px;
+
+border: 1px solid rgba(209, 169, 84, 0.9);
+box-sizing: border-box;
+}
+a.seh{
+    position: absolute;
+    width: 152px;
+    height: 16px;
+    left: 677px;
+    top: 95px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* Accent */
+
+    color: #D1A954;
+}
+a.mer{
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    left: 859px;
+    top: 95px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+a.tur{
+    position: absolute;
+    width: 79px;
+    height: 16px;
+    left: 1005px;
+    top: 95px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+a.kei{
+    position: absolute;
+    width: 87px;
+    height: 16px;
+    left: 1114px;
+    top: 95px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+a.dly{
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 1231px;
+    top: 95px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.ext-menu{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 1515px;
+    top: 93px;
+    
+} 
+
+.main-item1, .main-item2, .main-item3{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+.Rectangle2-1{
+    position: absolute;
+    width: 580px;
+    height: 650px;
+    left: 60px;
+    top: 207px;
+}
+.Rectangle21-1{
+    position: absolute;
+    width: 580px;
+    height: 166px;
+    left: 60px;
+    top: 691px;
+}
+
+.Rectangle23-1{
+    position: absolute;
+    width: 550px;
+    height: 126px;
+    left: 75px;
+    top: 711px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+.Rectangle2-2{
+    position: absolute;
+    width: 580px;
+    height: 650px;
+    left: 670px;
+    top: 207px;
+}
+.Rectangle21-2{
+    position: absolute;
+    width: 580px;
+    height: 166px;
+    left: 670px;
+    top: 691px;
+}
+.Rectangle23-2{
+    position: absolute;
+    width: 550px;
+    height: 126px;
+    left: 685px;
+    top: 711px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+.Rectangle2-3{
+    position: absolute;
+    width: 580px;
+    height: 650px;
+    left: 1280px;
+    top: 207px;
+}
+.Rectangle21-3{
+    position: absolute;
+    width: 580px;
+    height: 166px;
+    left: 1280px;
+    top: 691px;
+}
+.Rectangle23-3{
+    position: absolute;
+    width: 550px;
+    height: 126px;
+    left: 1295px;
+    top: 711px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+.slider-controls{
+    position: absolute;
+    width: 172px;
+    height: 8.5px;
+    left: 874px;
+    top: 917.05px;
+}
+
+.gooter footer{
+    position: absolute;
+    width: 319px;
+    height: 15px;
+    left: 405px;
+    top: 3576px;
+    margin-bottom: 20px;
+}
+.fv{
+    position: absolute;
+    width: 261px;
+    height: 15px;
+    left: 1254px;
+    top: 3576px;
+}
+.ab-r{
+    position: absolute;
+width: 287px;
+height: 35px;
+left: 816px;
+top: 1046px;
+
+/* h2 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 145%;
+/* or 52px */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #222222;
+}
+.descr1{
+    position: absolute;
+    width: 46px;
+    height: 30px;
+    left: 937px;
+    top: 1136px;
+}
+.stol{
+    position: absolute;
+    width: 920px;
+    height: 479px;
+    left: 500px;
+    top: 1217px;
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px rgba(126, 126, 126, 0.25)
+}
+.pb{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 900px;
+    top: 1390px;
+}
+.logo2{
+    position: absolute;
+    width: 202.79px;
+    height: 110px;
+    left: 574px;
+    top: 1786px;
+}
+.text1{
+    position: absolute;
+    width: 350px;
+    height: 205px;
+    left: 500px;
+    top: 1929px;
+
+    /* p */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    /* or 19px */
+
+
+    /* gray */
+
+    color: #616161;
+}
+.downl{   
+    position: absolute;
+    width: 1920px;
+    height: 409px;
+    left: 0px;
+    top: 2204px;
+
+
+}
