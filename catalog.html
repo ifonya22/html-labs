@@ -1,28 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
-
+<link rel="stylesheet" href="bootstrap.css">
 <head>
     <meta charset="UTF-8">
     <title>Каталог магазина РЫБАЧОК</title>
 </head>
 
 <body>
-    <div style='text-align:center; width:100%'><a href="index.html">Главная</a>
-    <a class="catalog" href="catalog.html">Каталог</a>
-    <a class="contacts" href="contacts.html">Контакты</a>
-    <hr size=10 color=green>
-    <h1>Наш каталог</h1>
-    <figure>
-        <p><img src="pics/item1.jpg"></p>
-        <a href="1.html">Спиннинг Рыболов-Олта Навахо 792F-S</a>
-        <p><img src="pics/item2.jpg" width="300" height="300"></p>
-        <a href="2.html">Катушка Mitchell Mag Pro Extreme 2000 FD</a>
-        <p><img src="pics/item3.jpg"width="500" height="300"></p>
-        <a href="3.html">Лодка ПВХ SL Boats SL 1 серая</a>
-    </figure>
-
-    </div>
-    <hr size=10 color=green>
-    <p>&copy Все права защищены</p>
+    <table>
+        <tr>
+            <th class="header">
+                <img src="pics/r.jpg" alt="logo" /> 
+                <div class="mx-auto" style="width: 400px;">
+                    <nav class="navbar navbar-expand-sm ">
+          
+                        <div class="collapse navbar-collapse" id="collapsibleNavId" s>
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+                                </li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="catalog.html">Каталог</a>
+                                </li>
+                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacts.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </th>
+        </tr>
+        
+        <!--<div style='text-align:center; width:100%'>-->
+        <!--<hr size=10 color=green>-->
+        <tr>
+            <table>
+                <h1 style="margin-left: 900px;" >Наш каталог</h1>
+            <td class="menu">
+                
+                <figure>
+                    <p><img src="pics/item1.jpg"></p>
+                    <a href="1.html">Спиннинг Рыболов-Олта Навахо 792F-S</a>                
+                </figure>
+            </td>
+            <td>
+                <figure>
+                <p><img src="pics/item2.jpg" width="300" height="300" style="margin-left: 150px;"></p>
+                <a href="2.html">Катушка Mitchell Mag Pro Extreme 2000 FD</a>
+                </figure>   
+            </td>
+            <td>
+            <figure>
+                <p><img src="pics/item3.jpg"width="500" height="300"></p>
+                <a href="3.html">Лодка ПВХ SL Boats SL 1 серая</a>
+            </figure>
+            </td>
+        </table>
+        </tr>
+        <tr>
+            <td>
+                <footer>&copy Все права защищены</footer>
+            </td>
+        </tr>
+        
+    </table>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
 </html>

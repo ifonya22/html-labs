@@ -1,51 +1,96 @@
 <!DOCTYPE html>
 <html lang="ru">
-
+<link rel="stylesheet" href="bootstrap.css">
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
 </head>
 
 <body>
-    <div style='text-align:center; width:100%'><a href="index.html">Главная</a>
-    <a class="catalog" href="catalog.html">Каталог</a>
-    <a class="contacts" href="contacts.html">Контакты</a>
+    <table>
+        <tr>
+            <th class="header">
+                <img src="pics/r.jpg" alt="logo" /> 
+                <div class="mx-auto" style="width: 400px;">
+                    <nav class="navbar navbar-expand-sm ">
+          
+                        <div class="collapse navbar-collapse" id="collapsibleNavId" s>
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+                                </li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="catalog.html">Каталог</a>
+                                </li>
+                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacts.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            
+            </th>
+        </tr>
+        <!--<div style='text-align:center; width:100%'>-->
+        <hr size=10 color=green>
+        <tr>
+            <td class="menu">
+                <h1>Напишите нам</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="pics">
+                <form action="#" autocomplete="on">
+                    <fieldset>
+                        <label for="name">Введите имя</label>
+                        <input id="name" type="text" placeholder="Иван" maxlength="10" minlength="2" autocomplete="off" name="name" required>
+                        <br>
+                        <br>
+                        <label for="email">Введите email</label>
+                        <input id="email" type="email" placeholder="ivan@mail.ru" name="email" required>
+                        <br>
+                        <br>
+                        <label for="phone">Номер телефона</label>
+                        <input id="phone" type="tel" placeholder="+7 960 547 32 68" autocomplete="off" name="phone">
+                        <br>
+                        <br>
+                        <label for="theme">Тема обращения</label>
+                        <input id="theme" type="text" autocomplete="off" name="theme" required>
+                        <br>
+                        <br>
+                        <label for="text">Текст обращения</label>
+                        <br>
+                        <textarea cols="50" rows="10" name="text"></textarea>
+                        <br>
+                        <input type="submit"> </fieldset>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="pics">
+                <h2>Адрес</h2>
+                <p>Наш телефон: +7 954 228 18 14
+                <br>Наш офис находится: Россия, Самара, Персиковая 54
+                <br>email: samararyba.mail@yandex.ru
+                <br>Мы работаем с 08:00 до 19:00</p>
+                <h3>Вы можете найти нас на карте</h3>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3ddcc79529cf446f758703c8d5af35b9e77feb89449665db0b553c6485a7cfbe&amp" width="500" height="400" frameborder="0"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <footer>&copy Все права защищены</footer>
+            </td>
+        </tr>
+    </table>
     
-    <hr size=10 color=green>
-    <h1>Напишите нам</h1>
-    <form action="#" autocomplete="on">
-        <fieldset>
-            <label for="name">Введите имя</label>
-            <input id="name" type="text" placeholder="Иван" maxlength="10" minlength="2" autocomplete="off" name="name" required>
-            <br>
-            <br>
-            <label for="email">Введите email</label>
-            <input id="email" type="email" placeholder="ivan@mail.ru" name="email" required>
-            <br>
-            <br>
-            <label for="phone">Номер телефона</label>
-            <input id="phone" type="tel" placeholder="+7 960 547 32 68" autocomplete="off" name="phone">
-            <br>
-            <br>
-            <label for="theme">Тема обращения</label>
-            <input id="theme" type="text" autocomplete="off" name="theme" required>
-            <br>
-            <br>
-            <label for="text">Текст обращения</label>
-            <br>
-            <textarea cols="50" rows="10" name="text"></textarea>
-            <br>
-            <input type="submit"> </fieldset>
-    </form>
-    <h2>Адрес</h2>
-    <p>Наш телефон: +7 954 228 18 14
-        <br>Наш офис находится: Россия, Самара, Персиковая 54
-        <br>email: samararyba.mail@yandex.ru
-        <br>Мы работаем с 08:00 до 19:00</p>
-    <h3>Вы можете найти нас на карте</h3>
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3ddcc79529cf446f758703c8d5af35b9e77feb89449665db0b553c6485a7cfbe&amp" width="500" height="400" frameborder="0"></iframe>
     
-    <hr size=10 color=green>
-    <p>&copy Все права защищены</p>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
 </html>

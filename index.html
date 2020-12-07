@@ -1,25 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
-
+<link rel="stylesheet" href="bt.css">
 <head>
     <meta charset="UTF-8">
     <title>Магазин РЫБАЧОК</title>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 </head>
 
 <body>
-    <div style='text-align:center; width:100%'><a href="index.html">Главная</a>
-    <a class="catalog" href="catalog.html">Каталог</a>
-    <a class="contacts" href="contacts.html">Контакты</a>
-    
-    <hr size=10 color=green>
-    <h1>РЫБАЧОК</h1>
-    <h2>Лучший магазин рыбаловных принадлежностей по мнению наших покупателей</h2>
-    <hr size=10 color=green>
-    <a href="pics/1.jpg" target="_blank"><img src="pics/1.jpg" width="540"></a>
-    <a href="pics/2.jpg" target="_blank"><img src="pics/2.jpg" width="400"></a>
-    <a href="pics/3.jpg" target="_blank"><img src="pics/3.jpg" width="450"></a>
-    <a href="pics/4.jpeg" target="_blank"><img src="pics/4.jpeg" width="500"></a></div>
-    <hr size=10 color=green>
-    <p>&copy Все права защищены</p>
+    <table>
+        <tr>
+            <th class="header" >
+                
+                
+                <img src="pics/r.jpg" alt="logo" /> 
+                <div class="mx-auto" style="width: 400px;">
+                    <nav class="navbar navbar-expand-sm ">
+          
+                        <div class="collapse navbar-collapse" id="collapsibleNavId" s>
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+                                </li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="catalog.html" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Каталог</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId" >
+                                        <a class="dropdown-item" href="1.html">Спиннинг</a>
+                                        <a class="dropdown-item" href="2.html">Катушка</a>
+                                        <a class="dropdown-item" href="3.html">Лодка</a>
+                                    </div>
+                                </li>
+                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacts.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            
+            </th>
+        </tr>
+        <!--<div style='text-align:center; width:100%'>-->
+        <tr>
+            <td class="menu">
+                <!--<hr size=10 color=green>-->
+                <h1>РЫБАЧОК</h1>
+                <h2>Лучший магазин рыбаловных принадлежностей по мнению наших покупателей</h2>
+            </td>    
+        </tr>
+        <!--<hr size=10 color=green>-->
+        <tr>
+            <td class="pics">
+                <a href="pics/1.jpg" target="_blank"><img src="pics/1.jpg" width="540"></a>
+                <a href="pics/2.jpg" target="_blank"><img src="pics/2.jpg" width="400"></a>
+                <a href="pics/3.jpg" target="_blank"><img src="pics/3.jpg" width="450"></a>
+                <a href="pics/4.jpeg" target="_blank"><img src="pics/4.jpeg" width="500"></a><!--</div>-->
+                <!--<hr size=10 color=green>-->
+            </td>
+        </tr>
+    <tr>
+        <td>
+            <footer>&copy Все права защищены</footer>
+        </td>
+    </tr>
+    </table>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
 </html>
